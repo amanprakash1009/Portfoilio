@@ -9,8 +9,8 @@ const Projects = () => {
       image: "/neuro.png",
       alt: "Preview of NeuroNest Website",
       tags: ["React", "NodeJS", "Express", "MongoDB"],
-      demoUrl: "https://neuro-nest-d2fn.vercel.app/",
-      githubUrl: "https://github.com/Satyam00915/NeuroNest",
+      // demoUrl: "http://10.52.185.96:5173/",
+      githubUrl: "https://github.com/amanprakash1009/gov-assist-chatbot",
     },
     {
       title: "carbonfoot Print Tracker",

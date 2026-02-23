@@ -1,4 +1,4 @@
-import { ProjectCard, type Project } from "@/Components/UI/ProjectCard";
+import { ProjectCard, type Project } from "./UI/ProjectCard";
 
 const Projects = () => {
   const projects: Project[] = [
@@ -9,28 +9,26 @@ const Projects = () => {
       image: "/neuro.png",
       alt: "Preview of NeuroNest Website",
       tags: ["React", "NodeJS", "Express", "MongoDB"],
-      // demoUrl: "http://10.52.185.96:5173/",
       githubUrl: "https://github.com/amanprakash1009/gov-assist-chatbot",
     },
     {
-      title: "carbonfoot Print Tracker",
+      title: "Carbon Footprint Tracker",
       description:
         "Designed a sustainability tracking platform integrating emission calculation algorithms and monthly carbon usage reports.",
       image: "/carbon.png",
-      alt: "Preview of Medium Website",
+      alt: "Preview of Carbon Tracker Website",
       tags: ["React", "NodeJS", "MongoDB", "Express"],
-      // demoUrl: "https://medium-ten-iota.vercel.app/signin",
       githubUrl: "https://github.com/amanprakash1009/carbonfoot_print",
     },
     {
-      
-      title: "Upcoming : Real-Time Stock Portfolio Tracker",
+      title: "Upcoming: Real-Time Stock Portfolio Tracker",
       description:
-        "A real-time stock portfolio tracker with live price updates, analytics dashboard, and JWT-based authentication..",
+        "A real-time stock portfolio tracker with live price updates, analytics dashboard, and JWT-based authentication.",
       image: "/stock.png",
       alt: "Preview of Real-Time Stock Portfolio Tracker Website",
       tags: ["React", "Express", "PostgreSQL", "Prisma"],
-      githubUrl: "https://github.com/amanprakash1009/Real-Time-Stock-Portfolio-Tracker",
+      githubUrl:
+        "https://github.com/amanprakash1009/Real-Time-Stock-Portfolio-Tracker",
     },
   ];
 

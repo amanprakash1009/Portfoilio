@@ -1,4 +1,5 @@
-import { ProjectCard, type Project } from "./UI/ProjectCard";
+// import { ProjectCard, type Project } from "./UI/ProjectCard";
+import { ProjectCard, type Project } from "../Components/UI/ProjectCard";
 
 const Projects = () => {
   const projects: Project[] = [

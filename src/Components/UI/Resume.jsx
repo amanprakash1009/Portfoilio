@@ -4,8 +4,11 @@ const Resume = () => {
   return (
     <StyledWrapper>
       <button
+        // onClick={() => {
+        //   window.open("/Resume.pdf", "_blank");
+        // }}
         onClick={() => {
-          window.open("/Resume.pdf", "_blank");
+          window.open(`${import.meta.env.BASE_URL}Resume.pdf`, "_blank");
         }}
       >
         Resume

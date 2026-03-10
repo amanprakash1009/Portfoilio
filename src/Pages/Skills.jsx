@@ -6,7 +6,7 @@ import {
   SiPrisma,
   SiPostgresql,
   SiReact,
-  SiTypescript,
+  // SiTypescript,
   SiNodedotjs,
   // SiSupabase,
   // SiCloudflare,
@@ -41,12 +41,12 @@ export const Skills = () => {
       size: 60,
       className: "text-yellow-400 drop-shadow-[0_0_10px_#f1f5f9]",
     },
-    {
-      name: "TypeScript",
-      icon: SiTypescript,
-      size: 60,
-      className: "text-blue-500 drop-shadow-[0_0_10px_#3b82f6]",
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: SiTypescript,
+    //   size: 60,
+    //   className: "text-blue-500 drop-shadow-[0_0_10px_#3b82f6]",
+    // },
     // {
     //   name: "Docker",
     //   icon: SiDocker,

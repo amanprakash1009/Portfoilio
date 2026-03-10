@@ -5,12 +5,21 @@ import Skill from "../Components/UI/Skill";
 import { Typewriter } from "react-simple-typewriter";
 import ScrollButton from "../Components/UI/Scroll";
 import { CiLocationOn } from "react-icons/ci";
+import profile from "../assets/ProfilePic.png";
 
 const Hero = () => {
   return (
     <section id="home" className="flex flex-col items-center justify-between">
       {/* Hero Content */}
       <div className="relative flex flex-col mb-8 items-center gap-3 sm:gap-8 pt-40">
+        
+        {/* Profile Picture */}
+        <img
+          src={profile}
+          alt="Aman Prakash"
+          className="w-32 h-32 rounded-full mb-6"
+        />
+
         {/* Name */}
         <div className="flex flex-col items-center justify-center">
           <BlurText
@@ -34,7 +43,7 @@ const Hero = () => {
         </div>
 
         {/* Location */}
-        <div className="flex items-center justify-center gap-3  pr-12">
+        <div className="flex items-center justify-center gap-3 pr-12">
           <CiLocationOn className="animate-bounce" fill="white" size={30} />
           <ShinyText
             text="Jalandhar, India"
@@ -70,7 +79,6 @@ const Hero = () => {
           </a>
 
           {/* LinkedIn */}
-
           <a
             target="_blank"
             href="https://www.linkedin.com/in/amanprakash1009/"
